@@ -1,7 +1,6 @@
 # версия docker-compose
 version: '1.29.2'
 
-
 services:
 
   db:
