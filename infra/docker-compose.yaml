@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: untalented/api_yamdb
+    image: untalented/api_yamdb
     restart: always
     volumes:
 
