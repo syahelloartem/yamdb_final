@@ -1,7 +1,5 @@
 ![finaltask](https://github.com/syahelloartem/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-![finaltask](https://github.com/airatbakiev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
 ## REST API YamDB - база отзывов о фильмах, музыке и книгах
 
 ### Стек
