@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Comment, Review
+from .models import Review, Comment
 
 
 class ReviewAdmin(admin.ModelAdmin):

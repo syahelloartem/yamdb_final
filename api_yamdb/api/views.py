@@ -1,12 +1,16 @@
 from django.db.models import Avg
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import filters, mixins, viewsets
-from reviews.models import Category, Genre, Title
-from users.permissions import IsAdminOrReadOnly
+from rest_framework import filters, viewsets, mixins
 
+from reviews.models import Title, Category, Genre
+from users.permissions import IsAdminOrReadOnly
 from .filters import TitleFilter
-from .serializers import (CategorySerializer, GenreSerializer,
-                          TitleGetSerializer, TitlePostSerializer)
+from .serializers import (
+    CategorySerializer,
+    GenreSerializer,
+    TitlePostSerializer,
+    TitleGetSerializer
+)
 
 
 class CreateListDeleteViewSet(

@@ -2,7 +2,8 @@ import datetime as dt
 
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
-from reviews.models import Category, Genre, Title
+
+from reviews.models import Title, Category, Genre
 
 
 class CategorySerializer(serializers.ModelSerializer):
